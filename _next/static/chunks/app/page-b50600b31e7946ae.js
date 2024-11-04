@@ -76,7 +76,7 @@
                       href: "/",
                       className:
                         "font-bold text-base md:text-xl text-yellow-500",
-                      children: "Wizard Frog's Magical Journey 🐸 ✨ 🍵",
+                      children: "ICE CREAM 47",
                     }),
                     (0, a.jsx)("div", {
                       className: "hidden md:flex items-center gap-3",
@@ -221,14 +221,9 @@
                   className:
                     "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",
                   children: [
-                    { type: "image", src: "/frog1.jpg", alt: "God Loves" },
-                    {
-                      type: "video",
-                      src: "/assets/video.mp4",
-                      thumbnail: "/assets/video.mp4",
-                      alt: "Luce Dancing",
-                    },
-                    { type: "image", src: "/frog2.jpg", alt: "Luce with Pope" },
+                    { type: "image", src: "/tramp1.jpg", alt: "God Loves" },
+                    { type: "image", src: "/tramp2.jpg", alt: "God Loves" },
+                    { type: "image", src: "/tramp3.jpg", alt: "God Loves" },
                   ].map((e, r) =>
                     (0, a.jsx)(
                       i.E.div,
@@ -362,15 +357,15 @@
                           "mt-4 lg:mt-0 text-4xl sm:text-6xl 2xl:text-8xl font-bold mb-8 text-black uppercase text-center lg:text-left flex items-center gap-2",
                         children: [
                           (0, a.jsx)(s.default, {
-                            src: "/frog.png",
-                            alt: "Luce",
+                            src: "/tramp.png",
+                            alt: "Tramp",
                             width: 32,
                             height: 32,
                             className: "h-[1em] w-auto mr-4",
                           }),
                           (0, a.jsx)("span", {
                             className: "text-yellow-500",
-                            children: "Meet Wizard Frog",
+                            children: "ICE CREAM 47",
                           }),
                         ],
                       }),
@@ -380,7 +375,7 @@
                         transition: { delay: 0.2 },
                         className:
                           "mb-6 lg:mb-8 text-2xl text-yellow-500 font-bold text-center lg:text-left",
-                        children: "The Magical Tea-Making Amphibian",
+                        children: "Making McDonald's Ice Cream Machines Great Again",
                       }),
                       (0, a.jsx)(i.E.p, {
                         initial: { opacity: 0 },
@@ -389,7 +384,7 @@
                         className:
                           "text-lg md:text-2xl font-bold text-black text-center lg:text-left uppercase",
                         children:
-                          "Join Wizard Frog on his whimsical adventures as he brews magical teas, takes peaceful walks, and contemplates the profound nature of bread.",
+                          "Trump vows to fix McDonald's notoriously broken ice cream machines and bring back delicious soft serve to the American people. No more disappointment when craving that perfect McFlurry - we're making ice cream great again!",
                       }),
                     ],
                   }),
@@ -398,9 +393,9 @@
                     animate: { scale: 1 },
                     transition: { delay: 0.4 },
                     className:
-                      "w-full lg:w-1/2 max-w-2xl overflow-hidden rounded-lg shadow-lg",
+                      "w-full lg:w-1/2 max-w-2xl overflow-hidden rounded-lg",
                     children: (0, a.jsx)("img", {
-                      src: "/assets/frog.png",
+                      src: "/assets/ice47.jpg",
                       alt: "Luce waving",
                       className: "w-full h-auto",
                     }),
@@ -430,13 +425,13 @@
                           "flex items-center text-4xl md:text-6xl text-center lg:text-left",
                         children: [
                           (0, a.jsx)(s.default, {
-                            src: "/frog.png",
+                            src: "/tramp.png",
                             alt: "Luce",
                             width: 80,
                             height: 80,
                             className: "inline-block h-[1em] w-auto mr-2",
                           }),
-                          (0, a.jsx)("span", { children: "WIZARD FROG" }),
+                          (0, a.jsx)("span", { children: "ICE CREAM 47" }),
                         ],
                       }),
                     }),
@@ -509,28 +504,52 @@
                 whileInView: { opacity: 1 },
                 viewport: { once: !0 },
                 className: "w-full flex justify-center py-20 bg-[#D0D0D0]",
-                children: (0, a.jsx)("div", {
-                  className: "max-w-xl w-full",
-                  children: (0, a.jsx)("blockquote", {
-                    className: "twitter-tweet",
-                    "data-dnt": "true",
-                    children: (0, a.jsx)("a", {
-                      href: "https://twitter.com/CatholicTV/status/1850904910180532432",
+                children: (0, a.jsxs)("div", {
+                  className: "flex flex-row gap-4 max-w-3xl w-full",
+                  children: [
+                    (0, a.jsx)("blockquote", {
+                      className: "twitter-tweet",
+                      "data-dnt": "true", 
+                      children: (0, a.jsx)("a", {
+                        href: "https://twitter.com/realDonaldTrump/status/1850326584537858393",
+                      }),
                     }),
-                  }),
+                    (0, a.jsx)("blockquote", {
+                      className: "twitter-tweet",
+                      "data-dnt": "true",
+                      children: (0, a.jsx)("a", {
+                        href: "https://twitter.com/realDonaldTrump/status/1850326584537858393",
+                      }),
+                    }),
+                    (0, a.jsx)("blockquote", {
+                      className: "twitter-tweet", 
+                      "data-dnt": "true",
+                      children: (0, a.jsx)("a", {
+                        href: "https://twitter.com/realDonaldTrump/status/1850326584537858393",
+                      }),
+                    }),
+                  ],
                 }),
               }),
+              
               (0, a.jsx)(u, {}),
               (0, a.jsx)(i.E.div, {
                 initial: { opacity: 0 },
                 whileInView: { opacity: 1 },
                 viewport: { once: !0 },
-                className: "h-screen relative w-full",
+                className: "h-screen relative w-full flex items-center justify-center",
                 children: (0, a.jsx)(s.default, {
                   src: "/footer.jpg",
                   alt: "Frog Banner",
                   fill: !0,
-                  style: { objectFit: "cover" },
+                  style: { 
+                    position: "inherit",
+                    height: "100%", 
+                    width: "auto",
+                    inset: "0px",
+                    objectFit: "cover",
+                    color: "transparent"
+                  },
                   priority: !0,
                 }),
               }),
